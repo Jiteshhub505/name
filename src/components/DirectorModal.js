@@ -23,7 +23,6 @@ export default function DirectorModal({ isOpen, onClose, directorKey }) {
       title: "Co-Founder & Director, CDDPP",
       credentials: "CA, LLB, Former Member U.P. Real Estate Appellate Tribunal (UPREAT)",
       icon: "fa-gavel",
-      contact: "E 53 Sector 72 Noida, UP 201301 | Mobile: 9810126948",
       sections: [
         {
           heading: "Professional Profile",
@@ -64,11 +63,10 @@ export default function DirectorModal({ isOpen, onClose, directorKey }) {
       title: "Technical Director & Compliance Auditor, CDDPP",
       credentials: "B.Sc., B.E. (Electrical Engineering, Honours), IMS Lead Auditor",
       icon: "fa-gears",
-      contact: "C2706, Tower-C, Prateek Edifice, Sector-107, Noida, UP - 201301 | Phone: +91 9953300015 | Email: amami.shashank@gmail.com",
       sections: [
         {
           heading: "Executive Summary",
-          content: `About 46 years of successful, highly diversified technical and management experience. Born on 13th May 1956. Completed B.Sc. from University of Allahabad in 1975 and Bachelor of Engineering (Electrical) from M.N.R. Engineering College Allahabad (now MNNIT) in 1979, graduating First Class with Honours.`
+          content: `About 46 years of successful, highly diversified technical and management experience. Completed B.Sc. from University of Allahabad in 1975 and Bachelor of Engineering (Electrical) from M.N.R. Engineering College Allahabad (now MNNIT) in 1979, graduating First Class with Honours.`
         },
         {
           heading: "Timeline & Career History",
@@ -103,7 +101,6 @@ export default function DirectorModal({ isOpen, onClose, directorKey }) {
       title: "Strategic Director & Infrastructure Head, CDDPP",
       credentials: "B.Tech (Electrical), M.Sc. (Def), MMS, M.Phil, Ph.D (Mumbai University)",
       icon: "fa-anchor",
-      contact: "Strategic & Defence Liaison Division, CDDPP Office Noida",
       sections: [
         {
           heading: "Naval Career & Command Experience",
@@ -135,7 +132,6 @@ export default function DirectorModal({ isOpen, onClose, directorKey }) {
       title: "Co-Founder & Director, CDDPP",
       credentials: "B.E. (Electrical Engineering, 1984), MBA",
       icon: "fa-solar-panel",
-      contact: "Innoprudent Technologies & Solutions | Res: Noida - 201301",
       sections: [
         {
           heading: "Business Profile & Entrepreneurship",
@@ -171,7 +167,6 @@ export default function DirectorModal({ isOpen, onClose, directorKey }) {
               <span className="dir-role">{data.title}</span>
               <h3>{data.name}</h3>
               <h4>{data.credentials}</h4>
-              <p style={{ fontSize: "11px", color: "#888888", marginTop: "4px" }}>{data.contact}</p>
             </div>
           </div>
           <div className="modal-bio-body">

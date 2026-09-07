@@ -6,7 +6,6 @@ export default function Team() {
       title: "Co-Founder & Director",
       credentials: "CA, LLB, Former Member UPREAT",
       icon: "fa-gavel",
-      contact: "E 53 Sector 72 Noida, UP 201301 | Mobile: 9810126948",
       summary: "Adjudicated ~2,000 tribunal judgments. Over 30 years practice in corporate audits, financial investigations, and administrative law systems.",
       sections: [
         {
@@ -49,12 +48,11 @@ export default function Team() {
       title: "Technical Director",
       credentials: "B.Sc., B.E. (Electrical Engineering, Honours), IMS Lead Auditor",
       icon: "fa-gears",
-      contact: "C2706, Tower-C, Prateek Edifice, Sector-107, Noida, UP - 201301 | Phone: +91 9953300015 | Email: amami.shashank@gmail.com",
       summary: "46 years of operational experience leading turnkey projects, SCADA, process plant management, and ISO audits globally.",
       sections: [
         {
           heading: "Executive Summary",
-          content: "About 46 years of successful, highly diversified technical and management experience. Born on 13th May 1956. Completed B.Sc. from University of Allahabad in 1975 and Bachelor of Engineering (Electrical) from M.N.R. Engineering College Allahabad (now MNNIT) in 1979, graduating First Class with Honours. Married, wife is M.Sc. Math from Delhi University. Two sons based in the USA, working in the IT field."
+          content: "About 46 years of successful, highly diversified technical and management experience. Completed B.Sc. from University of Allahabad in 1975 and Bachelor of Engineering (Electrical) from M.N.R. Engineering College Allahabad (now MNNIT) in 1979, graduating First Class with Honours."
         },
         {
           heading: "Timeline & Career History",
@@ -90,7 +88,6 @@ export default function Team() {
       title: "Strategic Director",
       credentials: "B.Tech (Electrical), M.Sc. (Def), MMS, M.Phil, Ph.D (Mumbai University)",
       icon: "fa-anchor",
-      contact: "Strategic & Defence Liaison Division, CDDPP Office Noida",
       summary: "Served 36 years onboard aircraft carriers and headed meteorological/oceanographic divisions. PhD in Climate Change.",
       sections: [
         {
@@ -124,7 +121,6 @@ export default function Team() {
       title: "Co-Founder & Director",
       credentials: "B.E. (Electrical Engineering, 1984), MBA",
       icon: "fa-solar-panel",
-      contact: "Innoprudent Technologies & Solutions | Res: Noida - 201301",
       summary: "Industrial green energy specialist. Served in corporate leadership at Reliance, Metro Cash & Carry, and RPG Group.",
       sections: [
         {
@@ -187,7 +183,6 @@ export default function Team() {
                 <span className="dir-role">{director.title}</span>
                 <h3 style={{ fontSize: "24px", marginBottom: "4px" }}>{director.name}</h3>
                 <h4 style={{ fontSize: "14px", fontWeight: "500", color: "#666666" }}>{director.credentials}</h4>
-                <p style={{ fontSize: "11px", color: "#888888", marginTop: "6px" }}>{director.contact}</p>
               </div>
             </div>
 
